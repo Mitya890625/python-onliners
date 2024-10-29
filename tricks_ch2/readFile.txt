@@ -1,0 +1,5 @@
+That’s why it’s good practice to close the file after reading it with the
+command f.close(), to ensure all the data is properly written into the file
+instead of residing in temporary memory. However, in a few exceptions,
+Python closes the file automatically: one of these exceptions occurs when
+the reference count drops to zero, as you’ll see in the following code.
